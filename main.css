@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+}
+.outerContainer {
+background: skyblue;
+background-image: url('https://res.cloudinary.com/lordtrituze/image/upload/v1587235243/Profile/serve_zhwpqo.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+header {
+height: 300px;
+padding: 2em;
+text-align: center;
+background-size: cover;
+background-position: fixed;
+background-image: url('https://res.cloudinary.com/lordtrituze/image/upload/v1587235243/Profile/contact_n9sbhb.jpg');
+border-top-right-radius: 1em;
+border-top-left-radius: 1em;
+}
+.left{
+	width: 50%;
+	height: 300px;
+	padding-top: 60px;
+	float: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+img{
+	align-items: center;
+}
+.right{
+	width: 50%;
+	height: 300px;
+	float: right;
+	padding-top: 100px;
+	color: white;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: grey;
+    font-family: garamond,sans-serif
+    margin:auto;
+
+}
+header img {
+    border-radius: 1em;
+    max-width: 270px;
+}
+
+#innerContainer {
+background: white;
+max-width: 60%;
+margin: 30px auto;
+box-shadow: 0 0 15px black;
+border-radius: 1em;
+}
+
+section {
+padding-left: 70px; 
+}
+a{	display: inline-block;
+	margin-left: 40%;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: garamond;
+	text-decoration: underline;
+}
+p{
+	font-size: 20px;
+	text-indent: 50px;
+	max-width: 800px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+form{
+	display: inline-block;
+	margin-left: 17%;
+	max-width: 500px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: #edf2f7;
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: #edf2f7;
+}
+button{
+  width: 368px;
+  height: 56.8px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 14px;
+  font: 2em ;
+  border-radius: .75em;
+  border: none;
+  padding: auto;
+  margin-left: 80px;
+}
+
+button:hover{
+  background: #edf2f7;
+}
